@@ -26,7 +26,7 @@
 
 
 ### 🙆‍♂️🙆 Contributors
-|   |   |   |   |
-| - | - | - | - |
-| [조용운](https://github.com/chomchom96) | [엄세원](https://github.com/serethia) | [안수진](https://github.com/sujinann) | - |
-  
+|       |        |      | 
+|   :--------:     |    :-------:     |   :----------:  | 
+| [<img src="https://avatars.githubusercontent.com/u/112466460" width="200">](https://github.com/chomchom96) | [<img src="https://avatars.githubusercontent.com/u/137035446" width="200">](https://github.com/serethia) | [<img src="https://avatars.githubusercontent.com/u/139312979" width="200">](https://github.com/sujinann) | 
+| [조용운](https://github.com/chomchom96) | [엄세원](https://github.com/serethia) | [안수진](https://github.com/sujinann) |
