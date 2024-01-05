@@ -28,5 +28,5 @@
 ### 🙆‍♂️🙆 Contributors
 |   |   |   |   |
 | - | - | - | - |
-| 더미  | 더미 | 더미 | 더미 |
+| [조용운](https://github.com/chomchom96) | [엄세원](https://github.com/serethia) | [안수진](https://github.com/sujinann) | - |
   
