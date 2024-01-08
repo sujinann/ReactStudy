@@ -14,7 +14,7 @@ const password = prompt("Your Password") // 브라우저 팝업에서 변수 입
         
         → 리액트에서 직접 JS로 DOM에 접근하면 동기화가 깨질 위험이 있음
         
-        +성능 저
+        +성능 저하 우려
         
 - 함수를 value로 사용하기
     - 함수를 다른 함수에서 value로 사용 가능
@@ -65,7 +65,7 @@ userMessage = userMessage..concat("111"); // 마찬가지로 overwrite
 const member = ["수진", "세원]; // const -> 수정할 수 없는 변수 선언
 member.push("용운"); // 참조형 값의 경우 조작 시 
 console.log(member); // 정상 수정
-member = []; // 에
+member = []; // 에러
 ```
 
 - let & const
@@ -82,7 +82,7 @@ member = []; // 에
     let message = "Hello"; // 가능
     
     const msg = "Hi";
-    const msg = "Hello"; // 에
+    const msg = "Hello"; // 에러
     
     let function1() {
     	let a = 5; // 함수 스코프 안에서 사용 가능
@@ -184,8 +184,8 @@ member = []; // 에
     
     - slice()
         - 시작 인덱스, 끝 인덱스, 혹은 둘 모두를 지정한 배열의 일부를 반환
-            - 입력값이 하나일 때 양수인 경우 시작 인덱스, 음수인 경우 끝 인덱스
-            - 끝 인덱스가 배열 범위를 벗어나면 에러가 나지 않고 무시
+            - 입력값이 하나일 때 음수인 경우 파이썬과 유사하게 length - value 인덱스로 계산
+            - 입력값이 범위를 벗어나면 배열 마지막 인덱스로 인식
         - 본 배열을 shallow copy 후 복사한 값 사용
     
     ```jsx
