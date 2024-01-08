@@ -233,5 +233,8 @@ member = []; // 에러
     console.log(months);
     // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
     
-    months.splice(
+    months.splice(5, 0, "June", "July");
+    // Add 2 or more elements at index 5
+    console.log(months);
+    // ["Jan", "Feb", "March", "April", "May", "June", "July"]
     ```
