@@ -124,7 +124,6 @@
         
         - 첫 번째 요소: 실행 직후에는 default 값이 저장됨, 재실행 시 업데이트된 값이 저장됨
         - 두 번째 요소: 첫 번째 요소를 계속 업데이트된 값으로 새로 저장시킴
-            
                                   (그래서 굳이 변수를 쓸 필요가 없음)
             
 - 다른 곳에서도 state 요소를 호출해 이용
@@ -289,23 +288,21 @@
         - 삼항(조건) 연산자 활용 (null은 아무것도 출력하지 않음)
         
         ```jsx
-        // 선택한 버튼이 없다면 Please select a topic. 출력
-        
+        // 선택한 버튼이 없다면 Please select a topic. 출력        
         {selectedTopic === undefined ? <p>Please select a topic.</p> : null} 
         // 혹은
         {!selectedTopic ? <p>Please select a topic.</p> : null} 
         ```
         
         ```jsx
-        // 선택한 버튼의 내용을 알맞은 형식으로 출력
-        
+        // 선택한 버튼의 내용을 알맞은 형식으로 출력        
         {selectedTopic !== undefined ? <div id="tab-content">
-        											           <h3>{EXAMPLES[selectedTopic].title}</h3>
-        											           <p>{EXAMPLES[selectedTopic].description}</p>
-        											           <pre>
-        											             <code>{EXAMPLES[selectedTopic].code}</code>
-        											           </pre>
-        											         </div> : null}
+        			             <h3>{EXAMPLES[selectedTopic].title}</h3>
+        			             <p>{EXAMPLES[selectedTopic].description}</p>
+        			             <pre>
+        			               <code>{EXAMPLES[selectedTopic].code}</code>
+        			             </pre>
+        			           </div> : null}
         // 혹은
         {selectedTopic ? <div id="tab-content">
         			             <h3>{EXAMPLES[selectedTopic].title}</h3>
@@ -319,14 +316,13 @@
         - 조건이 서로 정반대인 경우 null을 빼고 두 삼항연산자 조건을 묶어도 됨
         
         ```jsx
-        {!selectedTopic ? (<p>Please select a topic.</p>) 
-        								: (<div id="tab-content">
-        					           <h3>{EXAMPLES[selectedTopic].title}</h3>
-        					           <p>{EXAMPLES[selectedTopic].description}</p>
-        					           <pre>
-        					             <code>{EXAMPLES[selectedTopic].code}</code>
-        					           </pre>
-        					         </div>})
+        {!selectedTopic ? (<p>Please select a topic.</p>) : (<div id="tab-content">
+        					         <h3>{EXAMPLES[selectedTopic].title}</h3>
+        					         <p>{EXAMPLES[selectedTopic].description}</p>
+        					         <pre>
+        					           <code>{EXAMPLES[selectedTopic].code}</code>
+        					         </pre>
+        					       </div>})
         ```
         
         - 삼항연산자를 묶지 않는 대신, 삼항연산자와 else문을 지우고 && (AND) 로 대체해도 됨
@@ -336,12 +332,12 @@
         {!selectedTopic && <p>Please select a topic.</p>}
         
         {selectedTopic && <div id="tab-content">
-        				            <h3>{EXAMPLES[selectedTopic].title}</h3>
-        				            <p>{EXAMPLES[selectedTopic].description}</p>
-        				            <pre>
-        				              <code>{EXAMPLES[selectedTopic].code}</code>
-        				            </pre>
-        				          </div>}
+        		<h3>{EXAMPLES[selectedTopic].title}</h3>
+        		<p>{EXAMPLES[selectedTopic].description}</p>
+        		<pre>
+        		  <code>{EXAMPLES[selectedTopic].code}</code>
+        		</pre>
+        	      </div>}
         ```
         
         - 변수를 사용해서 JSX 코드를 저장해도 됨
@@ -368,9 +364,7 @@
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-        	  <TabButton onSelect={() => handleSelect("components")}>
-            Components
-            </TabButton>
+            <TabButton onSelect={() => handleSelect("components")}>Components</TabButton>
             <TabButton onSelect={() => handleSelect("jsx")}>JSX</TabButton>
             <TabButton onSelect={() => handleSelect("props")}>Props</TabButton>
             <TabButton onSelect={() => handleSelect("state")}>State</TabButton>
@@ -445,7 +439,7 @@
 
 ### List(리스트) 데이터 동적 출력
 
-- 기존 자바스크립트 객체 배열은 요소의 수를 통일해야 한다는 단점이 있음
+- 기존 자바스크립트 객체 배열은 요소의 수를 통일해야 한다는 단점이 있음.
 입력 개수가 다른 것이 있을 경우, 해당 요소가 뜨지 않아서 앱이 정상적으로 나오지 않게 됨
     
     ```jsx
