@@ -96,3 +96,25 @@ export default App;
 13번째 줄 {reactDescriptions[genRandomInt(2)]} 가 핵심
 
 const discription = {reactDescriptions[genRandomInt(2)]} 로 밖으로 빼서 정리하면 더 깔끔
+
+<br/>
+
+## 동적 HTML 속성, 이미지 설정
+
+위 코드처럼 이미지를 소스 속성값으로 나타내는 것은 최적의 방법이 아님
+
+배포과정에서 이미지가 사라질 수 있기 때문임
+
+```jsx
+import reactImg from './assets/react-core-concepts.png';
+
+<img src={reactImg} alt="Stylized atom" />
+```
+
+```jsx
+<img src=”{reactImg}” alt="Stylized atom" />
+```
+
+위처럼 헷갈려서 쌍따옴표로 묶으면 절대 안됨에 주의
+
+
