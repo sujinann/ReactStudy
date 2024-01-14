@@ -36,8 +36,6 @@ function App() {
 
 ### Props 대체 문법
 
-- qwe
-
 ```jsx
 // 이미지 소스 JSX
 import componentsImg from './assets/components.png';
@@ -155,8 +153,8 @@ function App() {
         
         ex: import “../MyComponent.jsx” → “../../MyComponent.jsx” 
         
+![Untitled (1)](https://github.com/chomchom96/ReactStudy/assets/112466460/54f663a4-1cda-4f47-b1db-9417e4f899c6)
 
-![Untitled](2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203%E1%84%80%E1%85%A1%E1%86%BC%20a8495c8588e94cc0bba5615e65be79d1/Untitled.png)
 
 - Children Prop
     - 컴포넌트 context 사이 출력할 텍스트를 정의
@@ -283,4 +281,4 @@ function MyComponent(priority) {
 3. 사용자 이벤트 핸들링 방법 : 내장 prop 사용(onClick 등) → onClick(’’) 과 같이 함수 실행문을 사용하지 말고 함수 이름만 사용해서 해당 함수에 포인터를 전달할 것
 4. 이벤트 이후 코드를 실행시킬 때 onClick 등 이벤트 prop에 전달해야 하는 값 → 실행되어야 하는 함수의 포인터 (onClilck = {handleClick})
 5. 이벤트에서 독립적인 함수의 구성 및 설정법 → 함수를 다른 함수로 감싼다(onClick={() ⇒ handleClick(5)}). 함수의 실행을 다른 함수로 감싸면 그 다른 함수가 이벤트 핸들링의 prop 값으로 전달
-6.
+
