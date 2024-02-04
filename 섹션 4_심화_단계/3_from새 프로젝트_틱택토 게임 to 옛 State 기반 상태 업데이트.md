@@ -55,8 +55,8 @@ export default function Player({ name, symbol }) {
 import Player from './components/Player.jsx';
 
 <ol id="players">
-	<Player name="Player 1" symbol="X" />
-	<Player name="Player 2" symbol="O" />
+  <Player name="Player 1" symbol="X" />
+  <Player name="Player 2" symbol="O" />
 </ol>
 ```
 
@@ -104,8 +104,8 @@ Edit 버튼을 동작시키기 위해 useState를 import 함
 
 ```jsx
 <ol id="players">
-	<Player name="Player 1" symbol="X" />
-	<Player name="Player 2" symbol="O" />
+  <Player name="Player 1" symbol="X" />
+  <Player name="Player 2" symbol="O" />
 </ol>
 ```
 
@@ -160,7 +160,7 @@ export default function Player({ name, symbol }) {
 
 ```jsx
 function handleEditClick() {
-	setIsEditing((editing) => !editing);
+  setIsEditing((editing) => !editing);
 }
 ```
 
