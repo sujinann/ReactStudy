@@ -165,3 +165,14 @@ function handleEditClick() {
 ```
 
 (editing) 여기 부분에서 리액트가 자동으로 이전 상태 값을 기반으로 가져오기 때문에 이 방식을 써야 함
+
+```jsx
+const [isEditing, setIsEditing] = useState(false);
+
+function handleEditClick() {
+  setIsEditing(!isEditing); // true
+  setIsEditing(!isEditing); // true 여기서 위 true 값을 가져와서 변경시키지 않음
+}
+```
+
+위의 방식을 사용하지 않을 경우 동일한 함수 안의 함수이기 때문에 isEditing의 초기값인 false를 가져와서 스케줄러에 올려놓고 즉각적으로 실행하지 않기 때문에 순차적으로 동작하지 않고 둘 다 true를 반환
