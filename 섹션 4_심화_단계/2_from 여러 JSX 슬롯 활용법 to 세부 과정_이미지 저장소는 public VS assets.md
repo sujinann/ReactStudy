@@ -8,12 +8,9 @@
         export default function Tabs() {
             // 모든 종류의 탭에 적용하고자 함
             return (
-                <>
-                    {' '}
-                    // Fragment
-                    <menu>
-                        {' '}
-                        // menu 탭: 버튼을 모두 감싸도록 BUTTONS // menu 바 안: TabButtons 같은 버튼들이 들어감
+                <>   // Fragment
+                    <menu>   // menu 탭: 버튼을 모두 감싸도록
+                        BUTTONS // menu 바 안: TabButtons 같은 버튼들이 들어감
                     </menu>
                     CONTENT // menu 바 밖: 누르는 탭 버튼에 따라 다르게 보여줄 실제 내용
                 </>
@@ -24,15 +21,11 @@
         ```jsx
         export default function Tabs({ children, buttons }) {
             return (
-                <>
-                    {' '}
-                    // Fragment
-                    <menu>
-                        {' '}
-                        // menu 탭: 버튼을 모두 감싸도록
-                        {buttons} // menu 바 안: TabButtons 같은 버튼들이 들어감
+                <>   // Fragment
+                    <menu>   // menu 탭: 버튼을 모두 감싸도록
+                        {buttons}   // menu 바 안: TabButtons 같은 버튼들이 들어감
                     </menu>
-                    {children} // menu 바 밖: 누르는 탭 버튼에 따라 다르게 보여줄 실제 내용
+                    {children}   // menu 바 밖: 누르는 탭 버튼에 따라 다르게 보여줄 실제 내용
                 </>
             );
         }
@@ -93,7 +86,7 @@
                 );
             }
             ```
-        -   개발자 도구에서 확인해보면, <menu>가 버튼들을 감싸고 있는 것을 확인할 수 있다.
+        -   개발자 도구에서 확인해보면, ```<menu>```가 버튼들을 감싸고 있는 것을 확인할 수 있다.
         -   menu 외에도 div, ul 등 다른 내장 식별자도 사용 가능하다.
     -   더 빠른 지름길: 처음부터 속성 명을 대문자로 시작하도록 작성한다. (동일한 결과가 뜬다!)
         ```jsx
