@@ -420,7 +420,7 @@
     
       return (
         // isActive의 T/F 여부에 따라 active라는 CSS 디자인을 적용할지, 안 할지를 결정하도록 작성한다.
-        <li className="isActive ? 'active' : undefined">
+        <li className={isActive ? 'active' : undefined}>
           <span className="player">
             {editablePlayerName}
             <span className="player-symbol">{symbol}</span>
