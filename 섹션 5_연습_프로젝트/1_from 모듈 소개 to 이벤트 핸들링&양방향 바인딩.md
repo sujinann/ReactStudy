@@ -143,9 +143,9 @@ export default function UserInput() {
           <input
             type="number"
             required
-					  // 인풋에 보이는 값
+	    // 인풋에 보이는 값
             value={userInput.initialInvestment}
-					  // target == input 임 target.value는 input의 value와 같음
+ 	    // target == input 임 target.value는 input의 value와 같음
             onChange={(event) =>
               handleChange('initialInvestment', event.target.value)
             }
