@@ -11,7 +11,7 @@
 
 ## 리액트 오류 메세지 이해하기
 
-![111.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/981243ac-53d7-4450-a17e-7900056bc234/111.png)
+![111](https://github.com/sujinann/ReactStudy/assets/139312979/91801a17-7c0e-4e57-9cac-d94f839b9249)
 
 오류 내용, 오류 위치, 오류로 이어지는 코드의 실행 목록들 제공 stack-trace
 
