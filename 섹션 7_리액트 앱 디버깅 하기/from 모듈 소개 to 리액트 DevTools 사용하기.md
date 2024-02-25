@@ -84,7 +84,7 @@ Results.jsx 에 위 코드를 추가하는 것으로 해결.
 
 ## 코드 흐름 및 경고 분석
 
-![22222.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/dd9978c4-cef5-4256-b30c-4dac86339874/22222.png)
+![22222](https://github.com/sujinann/ReactStudy/assets/139312979/68200519-d7e6-4ea2-b491-c5aa85fd4284)
 
 오류 메세지가 출력 되지 않는 논리적 오류 등과 같은 경우에는
 
@@ -94,7 +94,7 @@ Results.jsx 에 위 코드를 추가하는 것으로 해결.
 
 아래 버튼들과 마우스를 변수에 올림으로 prop 분석을 가능하게 함
 
-![333.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/2c2cf80a-c7ad-4b3e-a4d6-d52c681e29e8/333.png)
+![333](https://github.com/sujinann/ReactStudy/assets/139312979/f83e6e5e-47d8-4a35-850e-1517b15c5c38)
 
 19번 째 줄 newValue 앞에 + 를 붙여 숫자로 변환하는 과정을 거쳐 오류를 해결 할 수 있음
 
@@ -136,7 +136,7 @@ Strict Mode 는 리액트의 내장 컴포넌트
 
 개발자 도구의 Components 탭에서 이용 가능 
 
-![4444.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/30aba75a-d586-406b-bbd7-b133e422a1dc/4444.png)
+![4444](https://github.com/sujinann/ReactStudy/assets/139312979/a2afde16-ce6a-48ec-86cc-8ee63614d997)
 
 컴포넌트를 클릭하면 컴포넌트의 내용들에 대해 자세히 알 수 있음
 
