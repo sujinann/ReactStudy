@@ -9,7 +9,7 @@
 
 ## 프로젝트 사이드바 컴포넌트 추가하기
 
-![sidebar.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/7c200f64-9382-4b8f-a870-86024f02e166/sidebar.png)
+![sidebar](https://github.com/sujinann/ReactStudy/assets/139312979/9e2670ab-d625-442b-93f3-54d76cedff10)
 
 - 프로젝트 추가 버튼, 프로젝트 전환 가능 리스트 기능의 사이드 바
 
@@ -120,7 +120,7 @@ export default function NewProject() {
 
 - “[]” 사용하여 내장되지 않은 커스텀 속성 값 입력
 
-![style.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/ace199f5-e97a-4531-9e09-5c6f91d34789/style.png)
+![style](https://github.com/sujinann/ReactStudy/assets/139312979/07469b8a-c5e4-4e9b-9b5b-aedff82074a5)
 
 <br/>
 
@@ -172,7 +172,7 @@ export default function NoProjectSelected({ onStartAddProject }) {
 }
 ```
 
-![noproject.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/c5f90f9c-a3e6-41eb-9acd-0ce88b26c127/noproject.png)
+![noproject](https://github.com/sujinann/ReactStudy/assets/139312979/5b688f02-4df2-41b1-a747-528a0baa5523)
 
 <br/>
 
