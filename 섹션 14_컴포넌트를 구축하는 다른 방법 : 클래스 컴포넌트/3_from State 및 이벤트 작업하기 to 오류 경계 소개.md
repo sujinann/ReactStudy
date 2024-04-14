@@ -90,7 +90,7 @@ export default Users;
 
 클래스 컴포넌트에서는 useEffect 같은 훅 사용 불가
 
-![class_component.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/3476e237-c9bc-4abc-8f92-268754c94fca/class_component.png)
+![class_component](https://github.com/sujinann/ReactStudy/assets/139312979/0eaf9613-a6b8-4c48-bdd9-0dac5085144c)
 
 <br/>
 
@@ -268,7 +268,7 @@ export default UserFinder;
 - 오류 경계 경우를 제외하고 함수형 컴포넌트에 미세한 장점들이 더 많음
 - 하지만 둘 다 같은 기능을 수행할 수 있기 때문에 취향에 따라 사용해도 상관 없음
 
-![class_vs_function.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/89d53a11-27ae-41f0-b921-62450b915f77/class_vs_function.png)
+![class_vs_function](https://github.com/sujinann/ReactStudy/assets/139312979/0cef6d32-7127-445f-8929-6075a44f72ac)
 
 <br/>
 
