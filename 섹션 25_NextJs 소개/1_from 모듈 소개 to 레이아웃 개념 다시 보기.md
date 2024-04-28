@@ -119,7 +119,7 @@ import Header from '@/components/header';
 
 ## 동적 경로 환경설정 및 경로 매개 변수 사용 방법
 
-![next-dynamic-route.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/b2f35cac-1b43-42d4-acf2-dfbd35f97d63/next-dynamic-route.png)
+![next-dynamic-route](https://github.com/sujinann/ReactStudy/assets/139312979/7b2fb450-b8a4-4f55-b5c9-50c53b252e18)
 
 <br/>
 
