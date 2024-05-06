@@ -91,7 +91,7 @@ index.js 파일이 속한 경로의 페이지를 나타냄
 
 - [our-domain.com/news](http://our-domain.com/news) 경로의 페이지를 만들고 싶은 경우
     - pages 폴더의 news.js 파일 혹은 pages/news 폴더의 index.js 파일로 나타낼 수 있음
-- [our-domain.com/mews/detail](http://our-domain.com/news/detail) 경로의 페이지를 만들고 싶은 경우에는
+- [our-domain.com/news/detail](http://our-domain.com/news/detail) 경로의 페이지를 만들고 싶은 경우에는
     - pages/news 폴더의 detail.js 혹은 pages/news/detail 폴더의 index.js 이런 식
 
 </ br>
