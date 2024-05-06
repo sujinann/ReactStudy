@@ -119,6 +119,8 @@ import Header from '@/components/header';
 
 ## 동적 경로 환경설정 및 경로 매개 변수 사용 방법
 
+id 같은 변수를 이용한 경로는 대괄호로 설정함
+
 ![next-dynamic-route](https://github.com/sujinann/ReactStudy/assets/139312979/7b2fb450-b8a4-4f55-b5c9-50c53b252e18)
 
 <br/>
