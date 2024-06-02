@@ -8,7 +8,7 @@
 
 ## 정적 페이지에 대한 데이터 가져오기
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ca254afe-fecd-4396-92df-1ab2cb1215ad/dafe0c44-4686-417b-97d5-8ae6f8068992/191da35b-c819-4747-b03a-620ea9cddc6d.png)
+![next](https://github.com/sujinann/ReactStudy/assets/139312979/56d3bb9d-59f9-4a07-9f01-6822082e9ad5)
 
 - 정적 생성에서 페이지가 사전 렌더링 되는 시점은 프로덕션 용으로 빌드하는 시점
     - 요청이 서버에 도달했을 때 사전 렌더링을 갱신하는 것이 아님
